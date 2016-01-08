@@ -34,8 +34,8 @@ export default Ember.Component.extend({
   pageItemsObj: function() {
     return PageItems.create({
       parent: this,
-      currentPageBinding: "parent.currentPage",
-      totalPagesBinding: "parent.totalPages",
+      //currentPageBinding: "parent.currentPage",
+      //totalPagesBinding: "parent.totalPages",
       truncatePagesBinding: "parent.truncatePages",
       numPagesToShowBinding: "parent.numPagesToShow",
       showFLBinding: "parent.showFL"
