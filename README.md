@@ -1,6 +1,6 @@
 # Ember CLI Pagination
 
-# IMPORTANT: this has been quickly hacked to get it working in the context of Ember 2.2. See [this](https://github.com/mharris717/ember-cli-pagination/issues/153) for details.
+# IMPORTANT: this has been quickly hacked to get it working in the context of Plan Builder. See [this](https://github.com/mharris717/ember-cli-pagination/issues/153) for details.
 
 [![Build Status](https://travis-ci.org/mharris717/ember-cli-pagination.svg?branch=master)](https://travis-ci.org/mharris717/ember-cli-pagination)
 
@@ -161,7 +161,7 @@ export default Ember.ArrayController.extend({
 ```
 
 ```handlebars
-{{#each this}}
+{{#each model}}
   {{! your app's display logic}}
 {{/each}}
 
@@ -674,5 +674,9 @@ You guys rock!
 * @halfdan
 * @bschnelle
 * @mcm-ham
+* @jcope2013
+* @thejchap
+* @sarupbanskota
+* @chrisccerami
 
 <!--- FULL DOC END -->
